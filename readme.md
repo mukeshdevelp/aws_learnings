@@ -1,4 +1,7 @@
-<img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-41-36" src="https://github.com/user-attachments/assets/ac40b6c5-7b2f-419d-8f7c-f8601daffe95" />## aws nlb - 
+<img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-41-36" src="https://github.com/user-attachments/assets/ac40b6c5-7b2f-419d-8f7c-f8601daffe95" />## 
+
+---
+aws nlb - 
 AWS Network Load Balancer (NLB) is an Amazon Web Services tool that distributes high-performance traffic across multiple cloud instances and provides automatic scaling of resources to ensure low latency and high throughput for applications. 
 
 
@@ -50,14 +53,18 @@ The following are popular features and advantages of using AWS NLB:
 ---
 ### 3. select vpc, availibility zones and security groups to attach.
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-28-03" src="https://github.com/user-attachments/assets/201254f9-8bd8-4fc0-810b-9004ee5fa9fc" />
-vpc selection - 
+
+
+#### vpc selection - 
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-36-02" src="https://github.com/user-attachments/assets/e5a84183-96d4-4dcd-896b-714fd24588b0" />
 
 ---
 
 ### 4. select listeners and routing. you have to first create target groups here
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-30-00" src="https://github.com/user-attachments/assets/5ac59153-0bce-48ce-9090-89f0ca9abc2f" />
-target group creation - 
+
+
+#### target group creation - 
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-33-55" src="https://github.com/user-attachments/assets/eaf987eb-8ef9-4460-bb9d-61acbef06933" />
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-33-59" src="https://github.com/user-attachments/assets/2738f867-9d2f-4204-a2a4-8f0c9a32d2d6" />
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-34-02" src="https://github.com/user-attachments/assets/46d3358c-ff39-4cd6-bb81-b2386a1bff9d" />
