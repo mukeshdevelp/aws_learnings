@@ -1,4 +1,4 @@
-## aws nlb - 
+<img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-41-36" src="https://github.com/user-attachments/assets/ac40b6c5-7b2f-419d-8f7c-f8601daffe95" />## aws nlb - 
 AWS Network Load Balancer (NLB) is an Amazon Web Services tool that distributes high-performance traffic across multiple cloud instances and provides automatic scaling of resources to ensure low latency and high throughput for applications. 
 
 
@@ -33,27 +33,29 @@ The following are popular features and advantages of using AWS NLB:
 
 14. Powerful monitoring and auditing. NLB is integrated with both CloudWatch and CloudTrail, which helps with monitoring and auditing of resources. CloudTrail provides metrics such as active flow count, healthy host count, new flow count and processed bytes. CloudTrail tracks API calls to the NLB.
 
-
+---
+# Main content starts here -> 
 ## how to create it - 
-1. in load balancer category, select network load balancer.
+### 1. in load balancer category, select network load balancer.
 <img width="444" height="750" alt="Screenshot from 2025-10-28 14-25-01" src="https://github.com/user-attachments/assets/d36e2b02-2ba6-4ad5-b165-5fefccfa358b" />
 
 
 ---
 
-2. give load balancer name, select internet facing or internal according to your need.
+### 2. give load balancer name, select internet facing or internal according to your need.
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-27-11" src="https://github.com/user-attachments/assets/2366ba0b-84b5-4bf8-9c72-77249417dd1e" />
+
+
+
 ---
-
-
-3. select vpc, availibility zones and security groups to attach.
+### 3. select vpc, availibility zones and security groups to attach.
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-28-03" src="https://github.com/user-attachments/assets/201254f9-8bd8-4fc0-810b-9004ee5fa9fc" />
 vpc selection - 
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-36-02" src="https://github.com/user-attachments/assets/e5a84183-96d4-4dcd-896b-714fd24588b0" />
 
 ---
 
-4. select listeners and routing. you have to first create target groups here
+### 4. select listeners and routing. you have to first create target groups here
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-30-00" src="https://github.com/user-attachments/assets/5ac59153-0bce-48ce-9090-89f0ca9abc2f" />
 target group creation - 
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-33-55" src="https://github.com/user-attachments/assets/eaf987eb-8ef9-4460-bb9d-61acbef06933" />
@@ -61,15 +63,16 @@ target group creation -
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-34-02" src="https://github.com/user-attachments/assets/46d3358c-ff39-4cd6-bb81-b2386a1bff9d" />
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-37-19" src="https://github.com/user-attachments/assets/aac43076-b89a-4142-8f49-5f350ae1bc0a" />
 
+
 ---
 
-5.after target group creation, target group page will look like this
+### 5.after target group creation, target group page will look like this
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-38-11" src="https://github.com/user-attachments/assets/b790aadb-0341-410a-99b7-9b2b6121342e" />
 
 ---
 
 
-6. now click on create load balancer.
+### 6. now click on create load balancer.
 and wallah your network load balancer is created!!!
 
 <img width="1920" height="1080" alt="Screenshot from 2025-10-28 14-41-33" src="https://github.com/user-attachments/assets/29641a50-4fe5-4646-b57b-a7944e096a54" />
