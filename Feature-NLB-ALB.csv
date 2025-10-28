@@ -1,0 +1,7 @@
+"Feature","NLB","ALB"
+"Layer","4 (Transport)","7 (Application)"
+"Protocols","TCP, UDP, TLS","HTTP, HTTPS, gRPC"
+"Static IPs","Yes","No"
+"Latency","Ultra-low","Sufficient for web apps"
+"Routing Logic","IP-based, flow hash","Path, host, header, method-based"
+"Advanced Features","AWS PrivateLink, static IP","SSL offload, WAF, HTTP(S) redirects"
